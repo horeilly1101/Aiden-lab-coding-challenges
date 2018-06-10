@@ -14,4 +14,8 @@ concise and intuitive. However, this does have its drawbacks—you will need to 
 The input array of bucket values should be a string of integers separated by commas (e.g. 5,4,6 or 23,56,78 or 1,2,3,4,5,6 or ...). In other words, there should be no spaces separating values in the array.
 The input target value should simply be an integer (e.g. 4 or 7 or 321 or ...).
 For example, the following was displayed in my terminal:
+
+'''
+$ python ./bucket_challenge.py 1,2,3,4 413
+'''
  
