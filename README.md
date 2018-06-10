@@ -3,7 +3,7 @@ Completed coding challenges for the Aiden Lab
 
 General:
 
-• I used Python to complete the coding challenges.
+• I used Python 2.7 to complete the coding challenges.
 
 1A Bucket Challenge:
 
@@ -21,5 +21,22 @@ $ python ./bucket_challenge.py 1,2,3,4 413
  buckets: [1, 2, 3, 4]
  target value: 413
  result: 1
+ 
+ $ python ./bucket_challenge.py 1,2,3,4 413
+
+ buckets: [1, 2, 3, 4]
+ target value: 456
+ result: 1
 ```
+
+1B Number to String Challenge:
+
+• I approached this challenge with patterns in mind. When I want to memorize a long
+number, I first look for patterns in the digits. Maybe a digit is repeated several times, maybe there is an arithmetic sequence, maybe two adjacent digits multiply to be the digit to the right of them. Unconventional approaches, like looking for words or codes in the digits, rarely help me—in fact, those approaches are often more confusing than anything else. So I ignore them, and if I can’t find patterns to represent all of the digits in a number, I simply divide those digits into manageable chunks and memorize them together. This is precisely what my file num_to_word.py attempts to accomplish.
+
+• I left plenty of comments and docstrings in the file, so I hope you consider that to be sufficient documentation.
+
+• You can pass arguments at the call line (i.e. you can pass a single number at the call line).
+The input number should be a 10-20 digit integer.
+For example, the following was displayed in my terminal:
  
