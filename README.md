@@ -39,4 +39,21 @@ number, I first look for patterns in the digits. Maybe a digit is repeated sever
 • You can pass arguments at the call line (i.e. you can pass a single number at the call line).
 The input number should be a 10-20 digit integer.
 For example, the following was displayed in my terminal:
+
+```
+$ python ./num_to_word.py 12345678987654321
+
+ Input: 12345678987654321
+ Output: 1234 (year) - 56789 (arithmetic) - 87654321 (arithmetic)
+ 
+ (arithmetic), the digits form an arithmetic sequence
+ (geometric), the digits form a geometric sequence
+ (year), the digits represent a year after 1199
+ (product), the last number is the product of the first two digits
+ (symmetry), the digits are symmetric
+```
+
+2 File Challenge:
+
+• I believe my pdf document addressing this challenge is pretty thorough.
  
