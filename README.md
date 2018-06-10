@@ -21,7 +21,7 @@ $ python ./bucket_challenge.py 1,2,3,4 413
  target value: 413
  result: 1
  
- $ python ./bucket_challenge.py 1,2,3,4 413
+$ python ./bucket_challenge.py 1,2,3,4 413
 
  buckets: [1, 2, 3, 4]
  target value: 456
