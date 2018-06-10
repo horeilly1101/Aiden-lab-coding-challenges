@@ -15,7 +15,7 @@ The input array of bucket values should be a string of integers separated by com
 The input target value should simply be an integer (e.g. 4 or 7 or 321 or ...).
 For example, the following was displayed in my terminal:
 
-'''
+```
 $ python ./bucket_challenge.py 1,2,3,4 413
-'''
+```
  
