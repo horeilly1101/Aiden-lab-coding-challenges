@@ -1,11 +1,10 @@
-# Aiden-lab-coding-challenges
-## Completed coding challenges for the Aiden Lab
+# Aiden Lab Coding Challenges
 
-### General:
+## General:
 
 • I used Python 2.7 to complete the coding challenges.
 
-### 1A Bucket Challenge:
+## 1A Bucket Challenge:
 
 • I decided to solve this problem using recursion, because the recursive solution was very
 concise and intuitive. However, this does have its drawbacks—you will need to be wary of the target values you input into this file, as large values will exceed the maximum recursion depth in Python.
@@ -29,7 +28,7 @@ $ python ./bucket_challenge.py 1,2,3,4 413
  result: 1
 ```
 
-### 1B Number to String Challenge:
+## 1B Number to String Challenge:
 
 • I approached this challenge with patterns in mind. When I want to memorize a long
 number, I first look for patterns in the digits. Maybe a digit is repeated several times, maybe there is an arithmetic sequence, maybe two adjacent digits multiply to be the digit to the right of them. Unconventional approaches, like looking for words or codes in the digits, rarely help me—in fact, those approaches are often more confusing than anything else. So I ignore them, and if I can’t find patterns to represent all of the digits in a number, I simply divide those digits into manageable chunks and memorize them together. This is precisely what my file num_to_word.py attempts to accomplish.
@@ -53,7 +52,7 @@ $ python ./num_to_word.py 12345678987654321
  (symmetry), the digits are symmetric
 ```
 
-### 2 File Challenge:
+## 2 File Challenge:
 
 • I believe my pdf document addressing this challenge is pretty thorough.
  
